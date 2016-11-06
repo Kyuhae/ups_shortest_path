@@ -1,0 +1,10 @@
+4
+2
+u4 irit 50 ru 50
+3
+irit u1 100 ru 100 u4 50
+2
+u1 irit 100 ru 100
+3
+ru u4 50 irit 100 u1 100
+

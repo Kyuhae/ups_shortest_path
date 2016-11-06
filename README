@@ -1,0 +1,26 @@
+#### COMPILATION ####
+Un makefile est fourni:
+Pour générer les exécutables de test:
+make p_listetest
+make p_graphetest
+make p_pcctest
+make create_tabs_test
+make guidage_test
+
+Pour générer uniquement le programme principal:
+make main
+
+
+##### DESCRIPTION ####
+map.txt et map_9.txt sont des exemples des fichiers décrivant un graphe.
+Il faut donc appeler un de ces fichiers,  ou alors un fichier ayant la même syntaxe,
+en tant qu'argument au lancement de "main".
+
+Les autres exécutables sont sans arguments.
+
+Des images png sont fournies pour visualiser les graphes intervenant dans les tests:
+-dans p_graphetest, un graphe est crée et rempli selon l'image "map_9 graphetest.png".
+ son contenu est ensuite vérifié
+-dans p_pcctest, un graphe correspondant à "map 5 pcctest.png" est crée. Les chemins
+ calculés par la fonction dijkstra sont ensuite vérifiés.
+
