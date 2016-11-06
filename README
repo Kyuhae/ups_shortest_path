@@ -1,3 +1,5 @@
+
+------------Français
 #### COMPILATION ####
 Un makefile est fourni:
 Pour générer les exécutables de test:
@@ -19,8 +21,33 @@ en tant qu'argument au lancement de "main".
 Les autres exécutables sont sans arguments.
 
 Des images png sont fournies pour visualiser les graphes intervenant dans les tests:
--dans p_graphetest, un graphe est crée et rempli selon l'image "map_9 graphetest.png".
+-dans p_graphetest, un graphe est crée et rempli selon l'image.
  son contenu est ensuite vérifié
 -dans p_pcctest, un graphe correspondant à "map 5 pcctest.png" est crée. Les chemins
  calculés par la fonction dijkstra sont ensuite vérifiés.
+
+------------English
+#### COMPILATION ####
+a makefile is supplied
+To generate test binaries:
+make p_listetest
+make p_graphetest
+make p_pcctest
+make create_tabs_test
+make guidage_test
+
+To generate only the main program:
+make main
+
+
+##### DESCRIPTION ####
+map.txt and map_9.txt are examples of the files which describe a graph.
+To run  "main", a file with this format must be passed as a parameter.
+
+The png image files are there to illustrate their respective map files which are used during the tests.
+-in p_graphetest, a graph representing "map_9 graphetest.png" is created; and its content is checked.
+-in p_pcctest, a graph representing "map 5 pcctest.png" is created. 
+ Then the shortest paths to and from each node are calculated by the "dijkstra" function, and checked.
+
+
 
